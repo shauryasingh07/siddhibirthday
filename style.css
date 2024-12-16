@@ -89,18 +89,27 @@ button:hover{
 .new-content h1 {
     font-size: 2.5rem;
     color: #333;
-    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif; /* Stylish serif for headings */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .new-content p {
     font-size: 1.2rem;
     color: #555;
     margin: 10px 0;
+    width: 50%;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .new-content img {
-    width: 600px;
+    width: 45%;
     margin-top: 15px;
+    box-shadow: -4px 4px 7px 1px #6f5b42ac;
+    border-radius: 12px;
     /* border: 3px solid rgb(231, 58, 87); */
     /* border-radius: 30px;
     box-shadow: 0px 0px 5px 0px rgb(231, 58, 87); */

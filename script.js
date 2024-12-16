@@ -3,7 +3,7 @@ let openEnvelope = document.getElementById("open_envelop");
 let button = document.getElementById("btn");
 let currentPageIndex = 0; // Track the current page
 let isFirstClick = true; // Track the first click
-const pages = ["page1.html", "page2.html"]; // Array of content pages
+const pages = ["page1.html", "page2.html", "page3.html"]; // Array of content pages
 
 function handleButtonClick() {
     if (isFirstClick) {
